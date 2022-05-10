@@ -1,5 +1,7 @@
 # swing-flatlaf-template
 
+[![Maven Basic Package](https://github.com/xbmlz/swing-flatlaf-template/actions/workflows/maven-package.yml/badge.svg)](https://github.com/xbmlz/swing-flatlaf-template/actions/workflows/maven-package.yml)
+
 English | [简体中文](./README-zh.md)
 
 Swing + [FlatLaf](https://github.com/JFormDesigner/FlatLaf) + [jpackage](https://docs.oracle.com/en/java/javase/15/docs/specs/man/jpackage.html) +
@@ -51,3 +53,8 @@ To generate an installer, just run...
 To do everything up until the actual installer generation (including generating the custom JVM)...
 
 `mvn clean package`
+
+## Tanks
+
+ - [wiverson/maven-jpackage-template](https://github.com/wiverson/maven-jpackage-template)
+ - [JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf)
