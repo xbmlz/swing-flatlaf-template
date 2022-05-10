@@ -54,7 +54,7 @@ To do everything up until the actual installer generation (including generating 
 
 `mvn clean package`
 
-## Tanks
+## Thanks
 
  - [wiverson/maven-jpackage-template](https://github.com/wiverson/maven-jpackage-template)
  - [JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf)
