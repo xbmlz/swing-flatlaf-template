@@ -50,10 +50,11 @@
         <macos.sign.identity></macos.sign.identity>
 
         <!-- version control -->
-        <flatlaf.version>2.1</flatlaf.version>
+        <flatlaf.version>2.2</flatlaf.version>
         <flatlaf-extras.version>2.2</flatlaf-extras.version>
         <lombok.version>1.18.24</lombok.version>
         <forms_rt.version>7.0.3</forms_rt.version>
+        <slf4j.version>1.7.36</slf4j.version>
     </properties>
 
     <repositories>
@@ -94,7 +95,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
         </dependency>
     </dependencies>
 
