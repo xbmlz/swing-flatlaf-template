@@ -15,7 +15,7 @@ import java.awt.*;
  */
 public class BaseApplication {
 
-    static final String APP_TITLE = "myapp";
+    public static final String APP_TITLE = "myapp";
 
     public static void main(String[] args) {
         // macOS
@@ -70,7 +70,7 @@ public class BaseApplication {
                     : new Dimension(1660, 880));
 
             // show frame
-            frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+            frame.setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
             frame.pack();
             frame.setLocationRelativeTo(null);
             frame.setVisible(true);
