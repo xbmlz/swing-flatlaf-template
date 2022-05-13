@@ -1,6 +1,5 @@
 package org.myapp.ui;
 
-import com.formdev.flatlaf.extras.FlatSVGIcon;
 import lombok.extern.slf4j.Slf4j;
 import org.myapp.BaseApplication;
 import org.myapp.ui.form.MainForm;
